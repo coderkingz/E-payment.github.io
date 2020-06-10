@@ -6,7 +6,7 @@
             background-color: black;
         }
         .headeing{
-            margin-top: -75px;
+            margin-top: -69px;
             height: 100px;
             width: 5%;
         }
@@ -20,7 +20,7 @@
         }
         h1{
             text-align: center;
-            font-size: 60px;
+            font-size: 50px;
             padding-top: 5px;
             color: #ffffff;
         }
@@ -97,4 +97,102 @@
                  height: 40px;
                  font-family: 'Courier New', Courier, monospace;
                  color: #ffffff;
-             }
+              }
+               @media only screen and (min-width:768px){
+                .hed{
+                    background-color: black;
+                }
+                .headeing{
+                    margin-top: -75px;
+                    height: 100px;
+                    width: 5%;
+                }
+                #fu{
+                    color: white;
+                    font-size:60px;
+                    float: left;
+                    margin-top:10px;
+                    margin-left:20px;
+                    display: inline-block;
+                }
+                h1{
+                    text-align: center;
+                    font-size: 60px;
+                    padding-top: 5px;
+                    color: #ffffff;
+                }
+                .dropdown-content {
+                    display: none;
+                position: absolute;
+                font-family: sans-serif;
+                background-color: green;
+                min-width: 20%;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                margin-top: 75px;
+                }
+        
+                .dropdown-content a {
+                color: white;
+                font-size: 30px;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                }
+                .dropdown-content a:hover{background-color: black;}
+                .headeing:hover .dropdown-content{display: block;}
+                #fu:hover {color: green;}
+                
+        /* for login page */
+                     .frame{
+                         width: 40%;
+                         height: 500px;
+                         position: absolute;
+                         top: 15%;
+                         left: 30%;
+                         border-radius: 10px;
+                         box-shadow:0px 0px 10px rgb(0, 0, 0);
+                         background-color: #ffffff;
+                     }
+                     .fa-user-secret{
+                         font-size: 150px;
+                         color: black;
+                     }
+                     .i-frame{
+                         width: 25%;
+                         margin-left: 40%;
+                         margin-top: 10px;
+                         box-sizing: border-box;
+                     }
+                     input{
+                         position: relative;
+                         top:10px;
+                         left:25%; 
+                         width: 50%;
+                         height: 40px;
+                         border-top: 0px;
+                         border-left: 0px;
+                         border-right: 0px;
+                         border-bottom: 5px solid black;
+                         border-radius: 5px;
+                     }
+                     input:focus{
+                         outline: none;
+                     }
+                     button{
+                        position: relative;
+                         top:30px;
+                         left:25%; 
+                         width: 50%;
+                         height: 40px;
+                     }
+                     p{
+                         position: relative;
+                         top:10px;
+                         left:25%; 
+                         width: 50%;
+                         height: 40px;
+                         font-family: 'Courier New', Courier, monospace;
+                         color: #ffffff;
+                      }
+                    }
